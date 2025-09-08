@@ -14,7 +14,7 @@ Issues = "https://github.com/lisa-sgs/argparse-schema/issues"
 Changelog = "https://github.com/lisa-sgs/argparse-schema/blob/develop/CHANGELOG.md"
 
 [dependency-groups]
-dev = ["pytest", "pytest-cov"]
+dev = ["pre-commit", "pytest", "pytest-cov"]
 
 
 [build-system]
