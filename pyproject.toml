@@ -1,5 +1,5 @@
 [project]
-name = "argparse-schema"
+name = "argparse-schemas"
 description = "Transform argparse specs to JSON schemas"
 license = "Apache-2.0"
 readme = "README.md"
@@ -8,10 +8,10 @@ dependencies = []
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://github.com/lisa-sgs/argparse-schema"
-Source = "https://github.com/lisa-sgs/argparse-schema"
-Issues = "https://github.com/lisa-sgs/argparse-schema/issues"
-Changelog = "https://github.com/lisa-sgs/argparse-schema/blob/develop/CHANGELOG.md"
+Homepage = "https://github.com/lisa-sgs/argparse-schemas"
+Source = "https://github.com/lisa-sgs/argparse-schemas"
+Issues = "https://github.com/lisa-sgs/argparse-schemas/issues"
+Changelog = "https://github.com/lisa-sgs/argparse-schemas/blob/develop/CHANGELOG.md"
 
 [dependency-groups]
 dev = ["pre-commit", "pytest", "pytest-cov"]
