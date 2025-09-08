@@ -1,4 +1,4 @@
-# `argparse` schema
+# `argparse` schemas
 
 [![PyPI version](https://img.shields.io/pypi/v/argparse-schemas.svg)](https://pypi.org/project/argparse-schemas/)
 [![Build status](https://img.shields.io/github/actions/workflow/status/lisa-sgs/argparse-schemas/ci.yml?branch=main)](https://github.com/lisa-sgs/argparse-schemas/actions)
@@ -7,4 +7,4 @@
 
 Transform between [`argparse`](https://docs.python.org/3/library/argparse) parser specifications and JSON schemas.
 
-This is useful for documenting interface specifications.
+This is useful for documenting interface specifications and generating parsers from such specifications.
