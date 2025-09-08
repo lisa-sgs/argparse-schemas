@@ -1,7 +1,7 @@
 from argparse import ArgumentParser
 from pathlib import Path
 
-from lisa.sim.interfaces.jsonschema import argparse_to_json_schema
+from argparse_schemas.jsonschema import argparse_to_json_schema
 
 
 def test_empty_parser():
