@@ -18,8 +18,10 @@ dev = ["pre-commit", "pytest", "pytest-cov"]
 
 
 [build-system]
-requires = ["setuptools >= 77.0.3"]
+requires = ["setuptools >= 77.0.3", "setuptools-scm>=8"]
 build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
 
 [tool.ruff]
 # Ruff supports a top-level `src` option in lieu of isort's `src_paths` setting.
